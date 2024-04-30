@@ -9,8 +9,17 @@
 </head>
 
 <body>
-    {% block content %}
-    {% endblock content%}
+    <nav>
+        <div>
+            <a href="/page">page</a>
+            <a href="/another">another</a>
+        </div>
+        <h2>website name</h2>
+    </nav>
+    <div style="margin-top: 100px;">
+        {% block content %}
+        {% endblock content%}
+    </div>
 </body>
 
 </html>

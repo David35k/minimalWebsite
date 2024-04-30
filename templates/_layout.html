@@ -10,16 +10,23 @@
 
 <body>
     <nav>
+
+        <h2><a href="/" style="text-decoration: none; color: whitesmoke;">website name</a></h2>
+
         <div>
             <a href="/page">page</a>
             <a href="/another">another</a>
         </div>
-        <h2>website name</h2>
     </nav>
-    <div style="margin-top: 100px;">
+    <div style="margin-top: 100px; max-width: 700px;">
         {% block content %}
         {% endblock content%}
     </div>
+    <footer style="max-width: 700px;">
+        <h2>this is a cool footer</h2>
+        <p>i could add some links or something or i could just yap yap for some filler text because i need this website
+            to look full of stuff like a real website would oh look thats enoguh text</p>
+    </footer>
 </body>
 
 </html>

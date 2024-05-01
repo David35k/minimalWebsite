@@ -8,6 +8,8 @@ app.secret_key = "very_epic_secret_key300"  # super secret key
 def index():
     return render_template("index.html")
 
-# @app.route()
+@app.route("/page")
+def page():
+    return render_template("page.html")
 
 app.run(debug=True)
